@@ -25,7 +25,7 @@ namespace FaceApiUwp
         //--- Add your own Face API key -- see http://lancelarsen.com/setting-up-azure-cognitive-services/
         //----------------------------------------------------------------------
         private readonly IFaceServiceClient _faceServiceClient
-            = new FaceServiceClient("fbd28a5beaf045e4a144edb0cc6183db");
+            = new FaceServiceClient("80baebfda7f0484394079f40be3b64e3");
 
         private async void BrowseButton_Click(object sender, RoutedEventArgs e)
         {
